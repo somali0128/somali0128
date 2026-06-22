@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:2563eb,100:60a5fa&height=180&section=header&text=Soma%20Li&fontSize=42&fontColor=ffffff&stroke=2563eb&strokeWidth=2&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20AI%20Builder%20%7C%20VTuber&descSize=16&descAlignY=55&descAlign=50"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=700&lines=Building+intelligent+AI+agents+%F0%9F%A4%96;Crafting+full-stack+experiences+%F0%9F%92%BB;Maintaining+SSCUP+%26+soma-comic+%F0%9F%8E%A8;Organizing+communities+%26+streaming+%F0%9F%8E%AE;Future+Applied+AI+graduate+student+%F0%9F%8E%93)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=700&lines=Building+intelligent+AI+agents;Crafting+full-stack+experiences;Maintaining+SSCUP+%26+soma-comic;Organizing+communities+%26+streaming;Future+Applied+AI+graduate+student)](https://git.io/typing-svg)
 
 <br/>
 
@@ -15,13 +15,13 @@
 
 ---
 
-### 👋 About Me
+### About Me
 
 ```typescript
 const soma = {
   role: "Full Stack Developer",
   experience: "4 years",
-  location: "Nova Scotia, Canada 🇨🇦",
+  location: "Nova Scotia, Canada",
   currently: [
     "Building AI agents with Ollama, OpenWebUI, n8n & PostgreSQL",
     "Maintaining SSCUP & soma-comic projects",
@@ -38,7 +38,7 @@ When I'm not coding, you'll find me **streaming as a VTuber**, bringing people t
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 <div align="center">
 
@@ -71,7 +71,7 @@ When I'm not coding, you'll find me **streaming as a VTuber**, bringing people t
 
 ---
 
-### 📊 GitHub Stats
+### GitHub Stats
 
 <div align="center">
 
@@ -86,13 +86,13 @@ When I'm not coding, you'll find me **streaming as a VTuber**, bringing people t
 
 ---
 
-### 🚀 Featured Projects
+### Featured Projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
 
-#### 🏆 [SSCUP](https://github.com/somali0128/sscup)
+#### [SSCUP](https://github.com/somali0128/sscup)
 
 A community-driven project I actively maintain — building tools and experiences that bring people together through shared goals and creative collaboration.
 
@@ -103,7 +103,7 @@ A community-driven project I actively maintain — building tools and experience
 </td>
     <td width="50%" valign="top">
 
-#### 🎨 [soma-comic](https://github.com/somali0128/soma-comic)
+#### [soma-comic](https://github.com/somali0128/soma-comic)
 
 A creative web project at the intersection of storytelling and technology — where code meets comics and interactive experiences come to life.
 
@@ -116,7 +116,7 @@ A creative web project at the intersection of storytelling and technology — wh
   <tr>
     <td width="50%" valign="top">
 
-#### 🤖 AI Agent Stack
+#### AI Agent Stack
 
 End-to-end agentic workflows powered by **Ollama**, **OpenWebUI**, **n8n**, and **PostgreSQL** — from local LLM inference to automated pipelines and persistent memory.
 
@@ -129,7 +129,7 @@ End-to-end agentic workflows powered by **Ollama**, **OpenWebUI**, **n8n**, and 
 </td>
     <td width="50%" valign="top">
 
-#### 🎮 Community & VTuber
+#### Community & VTuber
 
 Beyond the terminal — organizing communities, creating content, and streaming as a VTuber. I believe great engineering and great communities amplify each other.
 
@@ -144,7 +144,7 @@ Beyond the terminal — organizing communities, creating content, and streaming 
 
 ---
 
-### 🐍 Contribution Graph
+### Contribution Graph
 
 <div align="center">
 
@@ -154,13 +154,13 @@ Beyond the terminal — organizing communities, creating content, and streaming 
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/somali0128/somali0128/output/github-contribution-grid-snake.svg">
 </picture>
 
-<sub>🐍 Snake updates daily via GitHub Actions</sub>
+<sub>Snake updates daily via GitHub Actions</sub>
 
 </div>
 
 ---
 
-### 🤝 Let's Connect
+### Let's Connect
 
 <div align="center">
 
@@ -169,6 +169,6 @@ Beyond the terminal — organizing communities, creating content, and streaming 
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:2563eb,100:60a5fa&height=100&section=footer&text=Thanks%20for%20visiting!%20%E2%9C%A8&fontSize=20&fontColor=ffffff&stroke=2563eb&strokeWidth=2&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:2563eb,100:60a5fa&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=20&fontColor=ffffff&stroke=2563eb&strokeWidth=2&animation=twinkling"/>
 
 </div>
