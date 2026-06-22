@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:2563eb,100:60a5fa&height=180&section=header&text=Soma%20Li&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20AI%20Builder%20%7C%20VTuber&descSize=16&descAlignY=55&descAlign=50"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:2563eb,100:60a5fa&height=180&section=header&text=Soma%20Li&fontSize=42&fontColor=ffffff&stroke=2563eb&strokeWidth=2&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%7C%20AI%20Builder%20%7C%20VTuber&descSize=16&descAlignY=55&descAlign=50"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=700&lines=Building+intelligent+AI+agents+%F0%9F%A4%96;Crafting+full-stack+experiences+%F0%9F%92%BB;Maintaining+SSCUP+%26+soma-comic+%F0%9F%8E%A8;Organizing+communities+%26+streaming+%F0%9F%8E%AE;Future+Applied+AI+graduate+student+%F0%9F%8E%93)](https://git.io/typing-svg)
 
@@ -169,6 +169,6 @@ Beyond the terminal — organizing communities, creating content, and streaming 
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:2563eb,100:60a5fa&height=100&section=footer&text=Thanks%20for%20visiting!%20%E2%9C%A8&fontSize=20&fontColor=ffffff&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:2563eb,100:60a5fa&height=100&section=footer&text=Thanks%20for%20visiting!%20%E2%9C%A8&fontSize=20&fontColor=ffffff&stroke=2563eb&strokeWidth=2&animation=twinkling"/>
 
 </div>
