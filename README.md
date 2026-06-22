@@ -165,7 +165,7 @@ Beyond the terminal — organizing communities, creating content, and streaming 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-somali0128-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/somali0128)
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-2563EB?style=for-the-badge&logo=gmail&logoColor=white)](mailto:somali0128@users.noreply.github.com)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-2563EB?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ldydq970128@gmail.com)
 
 <br/><br/>
 
