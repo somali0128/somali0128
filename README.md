@@ -75,8 +75,8 @@ When I'm not coding, you'll find me **streaming as a VTuber**, bringing people t
 
 <div align="center">
 
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=somali0128&theme=tokyonight" alt="GitHub Stats"/>
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=somali0128&theme=tokyonight" alt="Top Languages"/>
+<img height="180" src="https://raw.githubusercontent.com/somali0128/somali0128/output/profile-summary-cards/github-stats.svg" alt="GitHub Stats"/>
+<img height="180" src="https://raw.githubusercontent.com/somali0128/somali0128/output/profile-summary-cards/top-languages.svg" alt="Top Languages"/>
 
 <br/>
 
