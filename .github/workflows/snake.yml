@@ -19,16 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate profile summary cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          UTC_OFFSET: "-3"
-          AUTO_PUSH: false
-          THEME: tokyonight
-
       - uses: Platane/snk@v3
         with:
           github_user_name: somali0128
@@ -36,10 +26,15 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=58a6ff&color_dots=#0d1117,#1f3a5f,#2563eb,#3b82f6,#60a5fa
 
-      - name: Add static summary cards to published assets
+      - name: Download static GitHub summary cards
         run: |
-          sudo install -D profile-summary-card-output/tokyonight/3-stats.svg dist/profile-summary-cards/github-stats.svg
-          sudo install -D profile-summary-card-output/tokyonight/1-repos-per-language.svg dist/profile-summary-cards/top-languages.svg
+          mkdir -p dist/profile-summary-cards
+          curl --fail-with-body --location --retry 3 \
+            "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true" \
+            --output dist/profile-summary-cards/github-stats.svg
+          curl --fail-with-body --location --retry 3 \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true" \
+            --output dist/profile-summary-cards/top-languages.svg
           test -s dist/profile-summary-cards/github-stats.svg
           test -s dist/profile-summary-cards/top-languages.svg
 
