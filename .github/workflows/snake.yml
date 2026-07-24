@@ -28,6 +28,7 @@ jobs:
 
       - name: Download static GitHub summary cards
         run: |
+          sudo chown -R "$(id -u):$(id -g)" dist
           mkdir -p dist/profile-summary-cards
           curl --fail-with-body --location --retry 3 \
             "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true" \
