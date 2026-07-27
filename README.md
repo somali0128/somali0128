@@ -80,7 +80,7 @@ When I'm not coding, you'll find me **streaming as a VTuber**, bringing people t
 
 <br/>
 
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=somali0128&theme=tokyonight&hide_border=true&background=0D1117&ring=3b82f6&fire=60a5fa&currStreakLabel=60a5fa&sideNums=c9d1d9&currStreakNum=ffffff&dates=8b949e" alt="GitHub Streak"/>
+<img height="180" src="https://streak-stats.demolab.com/?user=somali0128&theme=tokyonight&hide_border=true&background=0D1117&ring=3b82f6&fire=60a5fa&currStreakLabel=60a5fa&sideNums=c9d1d9&currStreakNum=ffffff&dates=8b949e" alt="GitHub Streak"/>
 
 </div>
 
