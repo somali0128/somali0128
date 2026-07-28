@@ -39,8 +39,18 @@ jobs:
 
       - name: Add static summary cards to published assets
         run: |
-          sudo install -D profile-summary-card-output/tokyonight/3-stats.svg dist/profile-summary-cards/github-stats.svg
-          sudo install -D profile-summary-card-output/tokyonight/1-repos-per-language.svg dist/profile-summary-cards/top-languages.svg
+          git fetch origin output --depth=1
+          mkdir -p dist/profile-summary-cards
+          if [ -s profile-summary-card-output/tokyonight/3-stats.svg ]; then
+            cp profile-summary-card-output/tokyonight/3-stats.svg dist/profile-summary-cards/github-stats.svg
+          else
+            git show origin/output:profile-summary-cards/github-stats.svg > dist/profile-summary-cards/github-stats.svg
+          fi
+          if [ -s profile-summary-card-output/tokyonight/1-repos-per-language.svg ]; then
+            cp profile-summary-card-output/tokyonight/1-repos-per-language.svg dist/profile-summary-cards/top-languages.svg
+          else
+            git show origin/output:profile-summary-cards/top-languages.svg > dist/profile-summary-cards/top-languages.svg
+          fi
           test -s dist/profile-summary-cards/github-stats.svg
           test -s dist/profile-summary-cards/top-languages.svg
 
