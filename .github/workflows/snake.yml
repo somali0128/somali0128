@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - ".github/workflows/snake.yml"
+      - ".github/scripts/generate_streak.py"
 
 permissions:
   contents: write
@@ -36,6 +37,15 @@ jobs:
             --output-dir dist/profile-summary-cards
           test -s dist/profile-summary-cards/github-stats.svg
           test -s dist/profile-summary-cards/top-languages.svg
+
+      - name: Generate GitHub streak card
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: |
+          python .github/scripts/generate_streak.py "$RUNNER_TEMP/github-streak.svg"
+          sudo install -D "$RUNNER_TEMP/github-streak.svg" dist/github-streak.svg
+          test -s dist/github-streak.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
