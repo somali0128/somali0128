@@ -40,17 +40,20 @@ jobs:
       - name: Add static summary cards to published assets
         run: |
           git fetch origin output --depth=1
-          mkdir -p dist/profile-summary-cards
           if [ -s profile-summary-card-output/tokyonight/3-stats.svg ]; then
-            cp profile-summary-card-output/tokyonight/3-stats.svg dist/profile-summary-cards/github-stats.svg
+            stats_card=profile-summary-card-output/tokyonight/3-stats.svg
           else
-            git show origin/output:profile-summary-cards/github-stats.svg > dist/profile-summary-cards/github-stats.svg
+            stats_card="$RUNNER_TEMP/github-stats.svg"
+            git show origin/output:profile-summary-cards/github-stats.svg > "$stats_card"
           fi
           if [ -s profile-summary-card-output/tokyonight/1-repos-per-language.svg ]; then
-            cp profile-summary-card-output/tokyonight/1-repos-per-language.svg dist/profile-summary-cards/top-languages.svg
+            languages_card=profile-summary-card-output/tokyonight/1-repos-per-language.svg
           else
-            git show origin/output:profile-summary-cards/top-languages.svg > dist/profile-summary-cards/top-languages.svg
+            languages_card="$RUNNER_TEMP/top-languages.svg"
+            git show origin/output:profile-summary-cards/top-languages.svg > "$languages_card"
           fi
+          sudo install -D "$stats_card" dist/profile-summary-cards/github-stats.svg
+          sudo install -D "$languages_card" dist/profile-summary-cards/top-languages.svg
           test -s dist/profile-summary-cards/github-stats.svg
           test -s dist/profile-summary-cards/top-languages.svg
 
@@ -59,7 +62,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
         run: |
-          python .github/scripts/generate_streak.py dist/github-streak.svg
+          python .github/scripts/generate_streak.py "$RUNNER_TEMP/github-streak.svg"
+          sudo install -D "$RUNNER_TEMP/github-streak.svg" dist/github-streak.svg
           test -s dist/github-streak.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
