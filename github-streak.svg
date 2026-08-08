@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub contribution streak">
+  <style>
+    .value { fill: #ffffff; font: 600 28px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; text-anchor: middle }
+    .label { fill: #60a5fa; font: 600 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; text-anchor: middle }
+    .date { fill: #8b949e; font: 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; text-anchor: middle }
+  </style>
+  <rect width="495" height="195" rx="6" fill="#0D1117"/>
+  <path d="M165 35v125M330 35v125" stroke="#30363d"/>
+  <g transform="translate(82.5 0)">
+    <text class="value" y="82">1,355</text>
+    <text class="label" y="110">Total Contributions</text>
+    <text class="date" y="132">Public contributions</text>
+  </g>
+  <g transform="translate(247.5 0)">
+    <circle cx="0" cy="75" r="38" fill="none" stroke="#3b82f6" stroke-width="3"/>
+    <text class="value" y="84">3</text>
+    <text class="label" y="130">Current Streak</text>
+    <text class="date" y="151">Aug 5 - Aug 7, 2026</text>
+  </g>
+  <g transform="translate(412.5 0)">
+    <text class="value" y="82">17</text>
+    <text class="label" y="110">Longest Streak</text>
+    <text class="date" y="132">Jul 1 - Jul 17, 2026</text>
+  </g>
+</svg>
