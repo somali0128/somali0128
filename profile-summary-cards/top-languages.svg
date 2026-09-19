@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="200" role="img">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+  .title { font-size: 18px; font-weight: 600; fill: #70a5fd; }
+  .label { font-size: 14px; fill: #c3e88d; }
+  .value { font-size: 14px; font-weight: 600; fill: #ffffff; }
+  .muted { font-size: 12px; fill: #a9b1d6; }
+</style>
+<rect width="100%" height="100%" rx="8" fill="#1a1b27" stroke="#2f3549"/>
+<text x="24" y="36" class="title">Top Languages</text><circle cx="24" cy="62" r="5" fill="#f1e05a"/><text x="38" y="67" class="label">JavaScript</text><rect x="142" y="55" width="140" height="9" rx="4" fill="#f1e05a"/><text x="338" y="67" text-anchor="end" class="muted">17 repos</text>
+<circle cx="24" cy="87" r="5" fill="#3572A5"/><text x="38" y="92" class="label">Python</text><rect x="142" y="80" width="17" height="9" rx="4" fill="#3572A5"/><text x="338" y="92" text-anchor="end" class="muted">2 repos</text>
+<circle cx="24" cy="112" r="5" fill="#e34c26"/><text x="38" y="117" class="label">HTML</text><rect x="142" y="105" width="17" height="9" rx="4" fill="#e34c26"/><text x="338" y="117" text-anchor="end" class="muted">2 repos</text>
+<circle cx="24" cy="137" r="5" fill="#3178c6"/><text x="38" y="142" class="label">TypeScript</text><rect x="142" y="130" width="8" height="9" rx="4" fill="#3178c6"/><text x="338" y="142" text-anchor="end" class="muted">1 repos</text>
+<circle cx="24" cy="162" r="5" fill="#563d7c"/><text x="38" y="167" class="label">CSS</text><rect x="142" y="155" width="8" height="9" rx="4" fill="#563d7c"/><text x="338" y="167" text-anchor="end" class="muted">1 repos</text>
+</svg>
