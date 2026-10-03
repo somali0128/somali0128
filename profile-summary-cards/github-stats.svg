@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" role="img">
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+  .title { font-size: 18px; font-weight: 600; fill: #70a5fd; }
+  .label { font-size: 14px; fill: #c3e88d; }
+  .value { font-size: 14px; font-weight: 600; fill: #ffffff; }
+  .muted { font-size: 12px; fill: #a9b1d6; }
+</style>
+<rect width="100%" height="100%" rx="8" fill="#1a1b27" stroke="#2f3549"/>
+<text x="28" y="38" class="title">GitHub Stats</text><text x="467" y="38" text-anchor="end" class="muted">@somali0128</text><text x="28" y="72" class="label">Public repositories</text><text x="455" y="72" text-anchor="end" class="value">50</text>
+<text x="28" y="99" class="label">Followers</text><text x="455" y="99" text-anchor="end" class="value">26</text>
+<text x="28" y="126" class="label">Total stars</text><text x="455" y="126" text-anchor="end" class="value">179</text>
+<text x="28" y="153" class="label">Following</text><text x="455" y="153" text-anchor="end" class="value">1</text>
+</svg>
